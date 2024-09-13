@@ -43,10 +43,11 @@ animations = [{
 size = Vector2(11, 15)
 
 [node name="Player1_0" type="CharacterBody2D"]
+z_index = 5
 script = ExtResource("1_1cad7")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -12)
+position = Vector2(1, -12)
 sprite_frames = SubResource("SpriteFrames_7431j")
 animation = &"idle"
 autoplay = "idle"
