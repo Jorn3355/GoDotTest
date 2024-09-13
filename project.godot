@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
+config/name="First Project"
 run/main_scene="res://Scenes/game.tscn"
 config/features=PackedStringArray("4.3", "C#", "Forward Plus")
 config/icon="res://icon.svg"
@@ -22,3 +22,4 @@ project/assembly_name="New Game Project"
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.302043, 0.299992, 0.294412, 1)
